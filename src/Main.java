@@ -10,6 +10,15 @@ public class Main {
         boolean isWeekend = false;
         boolean isHoliday = true;
 
-        if (isWeekend || isHoliday) {}
+        if (isWeekend || isHoliday) {
+            System.out.println("쉴수있습니다");
+        }
+
+        boolean isRaining = true;
+        if(!isRaining) {
+            System.out.println("그냥 나가");
+        } else {
+            System.out.println("우산 챙겨");
+        }
     }
 }
