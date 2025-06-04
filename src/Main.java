@@ -1,14 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        boolean a = true;
-        int b = 1;
+        int number = 0;
 
-        while (a) {
-            System.out.println(b);
-            b++;
-
-            if(b > 100) {
-                a = false;
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                for (int k = 0; k < 10; k++) {
+                    System.out.println("i: " + i + ", j: " + j + ", k: " + k + ", number: " + number);
+                }
             }
         }
     }
