@@ -6,5 +6,10 @@ public class Main {
         if(age >= 18 && hasID)  {
             System.out.println("접속가능.");
         }
+
+        boolean isWeekend = false;
+        boolean isHoliday = true;
+
+        if (isWeekend || isHoliday) {}
     }
 }
